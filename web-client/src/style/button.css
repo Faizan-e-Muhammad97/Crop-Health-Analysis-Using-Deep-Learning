@@ -1,0 +1,37 @@
+.navButton {
+  padding: 8px 45px;
+  color: white;
+  background-color: #404040;
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #4c8bf5;
+  cursor: pointer;
+}
+.navButton:hover {
+  background-color: #4c8bf5;
+}
+
+.customButton {
+  padding: 8px 45px;
+  color: white;
+  background-color: #4c8bf5;
+  width: 200px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #4c8bf5;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.customButton:hover {
+  border-color: #2c559c;
+  background-color: #2c559c;
+}
+
+.customButton,
+.customButton:active,
+.customButton:focus {
+  outline: 0 !important; /* Works in Firefox, Chrome, IE8 and above */
+}

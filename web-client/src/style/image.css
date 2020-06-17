@@ -1,0 +1,40 @@
+.container {
+  padding: 10px;
+  display: block;
+}
+
+.img-progress-container {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+}
+
+.img-progress-container h5 {
+  padding: 0px;
+  margin: 1px;
+}
+
+.img-input-container {
+  display: block;
+  width: 45%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.img-input-container button {
+  margin-right: 10px;
+}
+
+.photo-container {
+  display: block;
+  width: 90%;
+  margin: 50px auto;
+}
+
+.singlePhoto {
+  display: inline-block;
+}
+
+.singlePhoto p {
+  text-align: center;
+}

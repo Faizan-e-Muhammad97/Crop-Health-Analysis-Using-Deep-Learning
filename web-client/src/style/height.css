@@ -1,0 +1,61 @@
+.message {
+  display: block;
+  margin-top: 250px;
+  text-align: center;
+}
+
+.sec-container {
+  padding: 10px;
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.image-container p {
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: large;
+}
+
+.table-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.analysis {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.analysis td,
+.analysis th {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.analysis th {
+  font-weight: normal;
+}
+
+.analysis tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.analysis tr:hover {
+  background-color: #ddd;
+}
+
+.analysis th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
