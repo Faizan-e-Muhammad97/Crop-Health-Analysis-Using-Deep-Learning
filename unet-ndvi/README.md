@@ -62,4 +62,4 @@ For inference run,
 python train.py inference
 ```
 ## Results
-![Ndvi component](./results.png)
+![Ndvi component](./results.PNG)
