@@ -36,3 +36,12 @@ This deep neural network is implemented with Keras functional API, which makes i
 Output from the network is a 512*512 which represents mask that should be learned. Sigmoid activation function makes sure that mask pixels are in [0, 1] range.
 
 ![alt text](https://miro.medium.com/max/1200/1*Z98NhzbVISHa4CoemZS4Kw.png)
+
+# How to run
+
+## Training
+In order to train the model from scratch, you need to download the dataset first, and after following the steps mentioned in Dataset section, create a directory "Data" and add separete directories for NIR and RGB images in Data directory. Then run the script,
+
+```
+python train.py
+```
