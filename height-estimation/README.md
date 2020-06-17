@@ -9,6 +9,10 @@ The module depends on the following libraries:
 + Numpy
 + Matplotlib
 
+## How to Run
+The module can be run by going to the module directory and running:
++ `python Height_Estimation.py`
+
 ## Screenshots
 The following pointcloud was tested on this script
 
