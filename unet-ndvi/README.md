@@ -14,6 +14,11 @@ The dataset contains raw sensor data containing both RGB and NIR information. In
 python sensor_correction+GT_NDVI.py
 ```
 
+## Data Augmentation
+In order to generalize the model better we have used Keras's module called ImageDataGenerator in keras.preprocessing.image to do data augmentation.
+
+See train.py and data.py for detail.
+
 ## Dependencies
 This module depends on the following libaries:
 
@@ -24,3 +29,10 @@ This module depends on the following libaries:
 * tifffile
 * Matplotlib
 * Flask
+
+## Model Architecture
+This deep neural network is implemented with Keras functional API, which makes it extremely easy to experiment with different interesting architectures.
+
+Output from the network is a 512*512 which represents mask that should be learned. Sigmoid activation function makes sure that mask pixels are in [0, 1] range.
+
+![alt text](https://miro.medium.com/max/1200/1*Z98NhzbVISHa4CoemZS4Kw.png)
