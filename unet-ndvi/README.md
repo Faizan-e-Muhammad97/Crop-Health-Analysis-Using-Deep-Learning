@@ -7,3 +7,9 @@ Traditional crop health analysis involved ground surveying that needs to be done
 We have collected our own custom dataset by performing several breeding experiments at the National Agriculture Research Center, Islamabad, Pakistan.
 
 **Download Link: ** https://drive.google.com/file/d/1NrOjqKNzkoxhjgnTPbVzZLDL6_Qmdudq/view?usp=sharing
+
+The dataset contains raw sensor data containing both RGB and NIR information. In order to isolate the bands execute,
+
+```
+python sensor_correction+GT_NDVI.py
+```
