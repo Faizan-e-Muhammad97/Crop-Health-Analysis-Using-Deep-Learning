@@ -1,5 +1,7 @@
 # Crop-Health-Analysis
 
+![App Architecture](./app.PNG)
+
 ## Introduction
 A deep learning tool for analysing crop health. There are alot of factors that contribute to the health of crop, analysing a few important factors can give a good estimate of the crop health. We mainly focused on two factors:
 + `NDVI`
