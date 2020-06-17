@@ -79,7 +79,7 @@ http://127.0.0.1:5000/api/predict
 After performing inference the results will be stored on the server and you can download the results using the following path,
 
 ```
-http://127.0.0.1:5000//download/<path:path>
+http://127.0.0.1:5000/download/<path:path>
 ```
 
 where path contains the name of files that you sent for inference.
