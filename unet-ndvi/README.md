@@ -64,6 +64,26 @@ python train.py inference
 ## Results
 ![Ndvi component](./results.PNG)
 
+## Flask Server
+In addition, to that we have also provided an inference server built using flask that offers two routes for inference and then downloading the results, run
+
+```
+python server.py
+```
+
+The server listens for incomming HTTP requests containing RGB images on inference route:
+```
+http://127.0.0.1:5000/api/predict
+```
+
+After performing inference the results will be stored on the server and you can download the results using the following path,
+
+```
+http://127.0.0.1:5000//download/<path:path>
+```
+
+where path contains the name of files that you sent for inference.
+
 ## About Keras
 Keras is a minimalist, highly modular neural networks library, written in Python and capable of running on top of either TensorFlow or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
 
