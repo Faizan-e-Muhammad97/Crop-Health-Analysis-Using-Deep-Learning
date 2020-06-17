@@ -11,7 +11,7 @@ The Web Application is divided into two main sections
 
 ## NDVI Analysis Section
 
-![Ndvi component](./ndvi.png)
+![Ndvi component](./map_ndvi.png)
 
 ## Height Analysis Section
 
