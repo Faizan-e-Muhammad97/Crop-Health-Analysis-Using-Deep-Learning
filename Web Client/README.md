@@ -1,23 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+A Single Page Application for Crop Health Analysis based on [React JS](https://reactjs.org/).
 
-Below you will find some information on how to perform common tasks.<br>
+## How to Run
+The web client application can be run just like any other React application. Go to the project directory and run
++ `npm start`
 
-## Table of Contents
-## Updating to New Releases
+## Sections
+The Web Application is divided into two main sections
++ NDVI Analysis Section
++ Height Analysis Section
 
-Create React App is divided into two packages:
+## NDVI Analysis Section
 
-* `create-react-app` is a global command-line utility that you use to create new projects.
-* `react-scripts` is a development dependency in the generated projects (including this one).
+## Height Analysis Section
 
-You almost never need to update `create-react-app` itself: it delegates all the setup to `react-scripts`.
-
-When you run `create-react-app`, it always creates the project with the latest version of `react-scripts` so you’ll get all the new features and improvements in newly created apps automatically.
-
-To update an existing project to a new version of `react-scripts`, [open the changelog](https://github.com/facebookincubator/create-react-app/blob/master/CHANGELOG.md), find the version you’re currently on (check `package.json` in this folder if you’re not sure), and apply the migration instructions for the newer versions.
-
-In most cases bumping the `react-scripts` version in `package.json` and running `npm install` in this folder should be enough, but it’s good to consult the [changelog](https://github.com/facebookincubator/create-react-app/blob/master/CHANGELOG.md) for potential breaking changes.
-
-We commit to keeping the breaking changes minimal so you can upgrade `react-scripts` painlessly.
-
-### `npm run build` silently fails
+## Features
+The Web Client provides users the following features
++ Multiple Images can be uploaded for ndvi calculation and ndvi mask generation.
++ The results of ndvi analysis are shown on google maps by extracting longitude and latitude information from the images.
++ Height analysis of crops directly from drone survey in video format or from a precomputed pointcloud.
++ Raster image of height analysis with real time statistics.
