@@ -11,7 +11,11 @@ The Web Application is divided into two main sections
 
 ## NDVI Analysis Section
 
+![Ndvi component](./ndvi.png)
+
 ## Height Analysis Section
+
+![Height component](./height.png)
 
 ## Features
 The Web Client provides users the following features
