@@ -45,3 +45,19 @@ In order to train the model from scratch, you need to download the dataset first
 ```
 python train.py
 ```
+
+The model is trained for 5 epochs.
+
+After 5 epochs, calculated accuracy is about 0.86.
+
+Loss function for the training is basically just a binary crossentropy.
+## Pretrained Model:
+If you want to finetune or perform inference on the pretrained model, we provide pre-trained weights of our model for direct inference.
+
+**Download Link:** https://drive.google.com/file/d/10s4ikNGHhV7co4QYEjQPv-dNpuXB5Skx/view?usp=sharing
+
+For inference run,
+
+```
+python train.py inference
+```
