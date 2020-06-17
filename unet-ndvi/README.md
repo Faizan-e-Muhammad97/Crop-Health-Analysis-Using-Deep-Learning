@@ -48,7 +48,7 @@ python train.py
 
 The model is trained for 5 epochs.
 
-After 5 epochs, calculated accuracy is about 0.86.
+After 5 epochs, calculated accuracy is about **0.86**.
 
 Loss function for the training is basically just a binary crossentropy.
 ## Pretrained Model:
