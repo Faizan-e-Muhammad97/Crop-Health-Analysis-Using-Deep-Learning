@@ -1,0 +1,33 @@
+{
+  "name": "fyp-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "exif-js": "^2.3.0",
+    "google-maps-react": "^2.0.6",
+    "radium": "^0.26.0",
+    "rc-progress": "^3.0.0",
+    "react": "^16.13.1",
+    "react-announcement": "^1.1.2",
+    "react-dom": "^16.13.1",
+    "react-dropdown": "^1.7.0",
+    "react-icons": "^3.10.0",
+    "react-images-upload": "^1.2.8",
+    "react-images-uploading": "^2.2.0",
+    "react-scripts": "0.9.5",
+    "react-sidebar": "^3.0.2",
+    "react-sweet-progress": "^1.1.2",
+    "react-viewer": "^3.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "style-loader": "^1.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
