@@ -3,7 +3,7 @@ A scripting tool for estimating height and producing a 2D raster image output.
 ## Dependencies
 The module depends on the following libraries:
 + Python 3.0+
-+ Visualsfm mardy
++ Visualsfm-mardy
 + Open3D
 + pptk
 + Numpy
